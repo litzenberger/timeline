@@ -1,0 +1,27 @@
+{
+  "name": "timeline-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "namor": "^1.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17",
+    "react-table": "^6.7.6"
+  },
+  "main": "src/main.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "electron-dev": "ELECTRON_START_URL=http://localhost:3000 electron .",
+    "dev": "nf start"
+  },
+  "devDependencies": {
+    "electron": "^1.7.10",
+    "foreman": "^2.0.0"
+  }
+}
